@@ -27,7 +27,6 @@ const selectSections = document.querySelectorAll("section");
 const navBarMenu = document.getElementsByClassName("navbar__menu");
 const navBarList = document.getElementById("navbar__list");
 const docFregmant = document.createDocumentFragment();
-const bars = document.getElementById("bars")
 
 /**
  * End Global Variables
@@ -64,7 +63,7 @@ function scrollToSectin(event) {
       : e.classList.remove("active");
   });
 
-// Scroll to anchor ID using scrollTO event
+  // Scroll to anchor ID using scrollTO event
 
   const secId = this.getAttribute("href").slice(1);
   const selectedSection = document.getElementById(secId);
@@ -72,10 +71,9 @@ function scrollToSectin(event) {
   event.preventDefault();
 }
 
- //* End Main Functions
- 
+//* End Main Functions
 
- /* Begin Events */
+/* Begin Events */
 
 // Scroll to section on link click
 
@@ -103,3 +101,11 @@ window.onscroll = () => {
     }
   });
 };
+
+// click on menu button to show
+
+function showMenu() {
+  navBarList.classList.toggle('toggle');
+}
+
+

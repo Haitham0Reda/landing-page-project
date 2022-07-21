@@ -11,7 +11,10 @@
       rel="stylesheet"
     />
     <!-- load font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <!-- Load Styles -->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
@@ -20,11 +23,15 @@
   IDs are only used for sections to connect menu achors to sections -->
     <header class="page__header">
       <nav class="navbar__menu">
-        <i id="bars" class="fa-solid fa-bars"></i>
+        <!-- Nav bar button icon -->
+        <button onclick="showMenu()" id="btn">
+          <i id="bars" class="fa-solid fa-bars"></i>
+        </button>
         <!-- Navigation starts as empty UL that will be populated with JS -->
-        <ul id="navbar__list"></ul>
+        <ul id="navbar__list" class="toggle"></ul>
       </nav>
     </header>
+
     <main>
       <header class="main__hero">
         <h1>Landing Page</h1>
@@ -188,7 +195,6 @@
       </section>
 
       <!-- End Section 5 -->
-
     </main>
 
     <!-- Start Footer -->
