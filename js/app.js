@@ -105,7 +105,5 @@ window.onscroll = () => {
 // click on menu button to show
 
 function showMenu() {
-  navBarList.classList.toggle('toggle');
+  navBarList.classList.toggle("toggle");
 }
-
-
