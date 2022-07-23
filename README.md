@@ -2,15 +2,11 @@
 
 ## Landing Page Project
 
-
-(images\Landig Page Project.gif)
-
 ## Description
 
 - Create navigation bar dynamically with manipulating the DOM by Javascript.
 - Create Element in javascript & add or remove style.
 - Make the project responsive in small screen and mobile with @media Query.
-
 
 ### Technologies Used
 
@@ -22,11 +18,6 @@
 
 You can download source code from this [link](https://github.com/Haitham0Reda/landing-page-project)
 
-
-### Usage
-
-
-
 ### author's name
 Haitham Mohamed Reda
 
@@ -35,3 +26,6 @@ Haitham Mohamed Reda
 
 - [W3school](https://www.w3schools.com/)
 - [MDN](https://developer.mozilla.org/en-US/)
+
+## Footer
+(c)Udacity
