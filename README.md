@@ -3,7 +3,7 @@
 ## Landing Page Project
 
 
-(images\Landig Page Project.gif)
+[images\Landig Page Project.gif]
 
 ## Description
 
