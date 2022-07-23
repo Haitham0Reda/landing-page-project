@@ -10,17 +10,17 @@
 
 ### Technologies Used
 
-+ *HTML 5*
-+ *Css 3*
-+ *Javascript*
+- _HTML 5_
+- _Css 3_
+- _Javascript_
 
 ### Installation
 
 You can download source code from this [link](https://github.com/Haitham0Reda/landing-page-project)
 
 ### author's name
-Haitham Mohamed Reda
 
+Haitham Mohamed Reda
 
 ### Reference
 
@@ -28,4 +28,5 @@ Haitham Mohamed Reda
 - [MDN](https://developer.mozilla.org/en-US/)
 
 ## Footer
+
 (c)Udacity
